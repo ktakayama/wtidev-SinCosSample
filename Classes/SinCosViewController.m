@@ -9,6 +9,7 @@
 #import "SinCosViewController.h"
 #import "AnimationCircle.h"
 #import "AnimationWave.h"
+#import "AnimationJump.h"
 
 #define VIEW_SIZE    30
 
@@ -32,6 +33,14 @@
       wave.radius = (i+1) * 50;
       [wave run];
       [wave release];
+   }
+
+   for(i = 0; i < 3; i++) {
+      AnimationJump *jump;
+      jump = [[AnimationJump alloc] initWithView:[self createView]];
+      jump.radius = (i+1) * 50;
+      [jump run];
+      [jump release];
    }
 }
 
