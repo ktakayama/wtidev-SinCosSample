@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* SinCosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SinCosViewController.m */; };
 		B933F56B12999CDF001769B4 /* AnimationLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F56A12999CDF001769B4 /* AnimationLoop.m */; };
 		B933F56E12999D7E001769B4 /* AnimationCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F56D12999D7E001769B4 /* AnimationCircle.m */; };
+		B933F58712999F34001769B4 /* AnimationWave.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F58612999F34001769B4 /* AnimationWave.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		B933F56A12999CDF001769B4 /* AnimationLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationLoop.m; sourceTree = "<group>"; };
 		B933F56C12999D7E001769B4 /* AnimationCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCircle.h; sourceTree = "<group>"; };
 		B933F56D12999D7E001769B4 /* AnimationCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCircle.m; sourceTree = "<group>"; };
+		B933F58512999F34001769B4 /* AnimationWave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationWave.h; sourceTree = "<group>"; };
+		B933F58612999F34001769B4 /* AnimationWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWave.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				B933F56A12999CDF001769B4 /* AnimationLoop.m */,
 				B933F56C12999D7E001769B4 /* AnimationCircle.h */,
 				B933F56D12999D7E001769B4 /* AnimationCircle.m */,
+				B933F58512999F34001769B4 /* AnimationWave.h */,
+				B933F58612999F34001769B4 /* AnimationWave.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				28D7ACF80DDB3853001CB0EB /* SinCosViewController.m in Sources */,
 				B933F56B12999CDF001769B4 /* AnimationLoop.m in Sources */,
 				B933F56E12999D7E001769B4 /* AnimationCircle.m in Sources */,
+				B933F58712999F34001769B4 /* AnimationWave.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

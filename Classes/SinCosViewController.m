@@ -8,6 +8,7 @@
 
 #import "SinCosViewController.h"
 #import "AnimationCircle.h"
+#import "AnimationWave.h"
 
 #define VIEW_SIZE    30
 
@@ -24,11 +25,21 @@
       [circle run];
       [circle release];
    }
+
+   for(i = 0; i < 3; i++) {
+      AnimationWave *wave;
+      wave = [[AnimationWave alloc] initWithView:[self createView]];
+      wave.radius = (i+1) * 50;
+      [wave run];
+      [wave release];
+   }
 }
 
 - (UIView *) createView {
-   int i = random();
-   UIView *tview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, VIEW_SIZE, VIEW_SIZE)];
+   int i = random() % 2;
+   int x = random() % 300;
+   int y = random() % 400;
+   UIView *tview = [[UIView alloc] initWithFrame:CGRectMake(x, y, VIEW_SIZE, VIEW_SIZE)];
    tview.backgroundColor = (i % 2 == 0) ? [UIColor redColor] : [UIColor blueColor];
    [self.view addSubview:tview];
    return [tview autorelease];
