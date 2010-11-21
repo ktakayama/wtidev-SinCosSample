@@ -10,6 +10,7 @@
 #import "AnimationCircle.h"
 #import "AnimationWave.h"
 #import "AnimationJump.h"
+#import "AnimationSpiral.h"
 
 #define VIEW_SIZE    30
 
@@ -41,6 +42,14 @@
       jump.radius = (i+1) * 50;
       [jump run];
       [jump release];
+   }
+
+   for(i = 0; i < 5; i++) {
+      AnimationSpiral *spiral;
+      spiral = [[AnimationSpiral alloc] initWithView:[self createView]];
+      spiral.radius = (i+1) * 30;
+      [spiral run];
+      [spiral release];
    }
 }
 

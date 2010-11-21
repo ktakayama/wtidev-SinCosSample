@@ -19,6 +19,7 @@
 		B933F56E12999D7E001769B4 /* AnimationCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F56D12999D7E001769B4 /* AnimationCircle.m */; };
 		B933F58712999F34001769B4 /* AnimationWave.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F58612999F34001769B4 /* AnimationWave.m */; };
 		B933F5A41299A0F5001769B4 /* AnimationJump.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F5A31299A0F5001769B4 /* AnimationJump.m */; };
+		B933F5C11299A319001769B4 /* AnimationSpiral.m in Sources */ = {isa = PBXBuildFile; fileRef = B933F5C01299A319001769B4 /* AnimationSpiral.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		B933F58612999F34001769B4 /* AnimationWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationWave.m; sourceTree = "<group>"; };
 		B933F5A21299A0F5001769B4 /* AnimationJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationJump.h; sourceTree = "<group>"; };
 		B933F5A31299A0F5001769B4 /* AnimationJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationJump.m; sourceTree = "<group>"; };
+		B933F5BF1299A319001769B4 /* AnimationSpiral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationSpiral.h; sourceTree = "<group>"; };
+		B933F5C01299A319001769B4 /* AnimationSpiral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationSpiral.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 				B933F58612999F34001769B4 /* AnimationWave.m */,
 				B933F5A21299A0F5001769B4 /* AnimationJump.h */,
 				B933F5A31299A0F5001769B4 /* AnimationJump.m */,
+				B933F5BF1299A319001769B4 /* AnimationSpiral.h */,
+				B933F5C01299A319001769B4 /* AnimationSpiral.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -195,6 +200,7 @@
 				B933F56E12999D7E001769B4 /* AnimationCircle.m in Sources */,
 				B933F58712999F34001769B4 /* AnimationWave.m in Sources */,
 				B933F5A41299A0F5001769B4 /* AnimationJump.m in Sources */,
+				B933F5C11299A319001769B4 /* AnimationSpiral.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
