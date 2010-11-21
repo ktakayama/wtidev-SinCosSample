@@ -11,5 +11,7 @@
 @interface SinCosViewController : UIViewController {
 }
 
+- (UIView *) createView;
+
 @end
 

@@ -7,7 +7,31 @@
 //
 
 #import "SinCosViewController.h"
+#import "AnimationCircle.h"
+
+#define VIEW_SIZE    30
 
 @implementation SinCosViewController
+
+- (void)viewDidLoad {
+   [super viewDidLoad];
+   int i;
+
+   for(i = 0; i < 3; i++) {
+      AnimationCircle *circle;
+      circle = [[AnimationCircle alloc] initWithView:[self createView]];
+      circle.radius = (i+1) * 40;
+      [circle run];
+      [circle release];
+   }
+}
+
+- (UIView *) createView {
+   int i = random();
+   UIView *tview = [[UIView alloc] initWithFrame:CGRectMake(0, 0, VIEW_SIZE, VIEW_SIZE)];
+   tview.backgroundColor = (i % 2 == 0) ? [UIColor redColor] : [UIColor blueColor];
+   [self.view addSubview:tview];
+   return [tview autorelease];
+}
 
 @end
